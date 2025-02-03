@@ -7,7 +7,7 @@ describe('sumNumbers', () => {
     expect(typeof sumNumbers(1, 2, 4)).toBe('number')
   })
 
-  it('retourne la somme de deux paramètres', () => {
+  it('retourne la somme des paramètres', () => {
     expect(sumNumbers(1, 2)).toBe(3)
     expect(sumNumbers(5, 5)).toBe(10)
     expect(sumNumbers(5, 5, 5)).toBe(15)
